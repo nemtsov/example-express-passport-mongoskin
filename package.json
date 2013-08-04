@@ -1,0 +1,21 @@
+{
+  "name": "example-express-passport-mongoskin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Example of express app with passport and backed by mongodb via mongoskin.",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "~0.7.6",
+    "connect-mongo": "~0.3.3",
+    "passport": "~0.1.17",
+    "mongoskin": "~0.6.0",
+    "passport-local": "~0.1.6",
+    "errno": "~0.0.5",
+    "express": "~3.3.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "nemtsov@gmail.com",
+  "license": "MIT"
+}
